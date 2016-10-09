@@ -1,8 +1,9 @@
 package Sleep
 
 import (
-	"labix.org/v2/mgo/bson"
 	"time"
+
+	"gopkg.in/mgo.v2/bson"
 )
 
 //Virtual holds temporary/computed values related to the document.

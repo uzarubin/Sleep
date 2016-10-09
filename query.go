@@ -2,10 +2,11 @@ package Sleep
 
 import (
 	"fmt"
-	"labix.org/v2/mgo"
-	"labix.org/v2/mgo/bson"
 	"reflect"
 	"strings"
+
+	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2/bson"
 )
 
 type Query struct {

@@ -4,9 +4,10 @@
 package Sleep
 
 import (
-	"labix.org/v2/mgo"
-	"labix.org/v2/mgo/bson"
 	"reflect"
+
+	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2/bson"
 )
 
 //Convenient access to bson.M
